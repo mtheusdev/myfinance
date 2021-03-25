@@ -1,0 +1,23 @@
+{
+  "name": "my_finance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtheusdev/myfinance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtheusdev/myfinance/issues"
+  },
+  "homepage": "https://github.com/mtheusdev/myfinance#readme",
+  "dependencies": {
+    "prisma-client-lib": "1.28.3"
+  }
+}
