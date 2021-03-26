@@ -18,6 +18,7 @@ async function createAccount(_, { description }, ctx, info){
   }, info)
 }
 
+
 async function login(_, { email, password }, ctx, info){
 
   const user = await ctx.db.query.user({where: { email }})
