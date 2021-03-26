@@ -1,6 +1,5 @@
 const bcrypt = require('bcryptjs')
 const jwt = require('jsonwebtoken');
-
 const JWT_SECRET = process.env.JWT_SECRET
 
 async function login(_, { email, password }, ctx, info){
@@ -21,10 +20,8 @@ async function login(_, { email, password }, ctx, info){
     token,
     user
   }
-  
+
 }
-
-
 
 async function signup(_,args,ctx, info){
 
