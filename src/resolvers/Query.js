@@ -22,6 +22,7 @@ function accounts(_, args, ctx, info){
   }, info)
 }
 
+
 module.exports = {
   user,
   accounts
