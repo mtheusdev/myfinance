@@ -4,20 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mtheusdev/myfinance.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Matheus Henrique dos Santos",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mtheusdev/myfinance/issues"
   },
   "homepage": "https://github.com/mtheusdev/myfinance#readme",
   "dependencies": {
-    "prisma-client-lib": "1.28.3"
+    "graphql-yoga": "^1.18.3",
+    "prisma-client-lib": "^1.34.12"
   }
 }
